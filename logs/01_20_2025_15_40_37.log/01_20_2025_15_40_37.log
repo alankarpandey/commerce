@@ -1,0 +1,24 @@
+2025-01-20 15:40:37,482 - 193 - pyngrok.process - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\nickc\AppData\Local\ngrok\ngrok.exe
+2025-01-20 15:40:38,544 - 283 - pyngrok.ngrok - INFO - Opening tunnel named: http-5000-4329c1c5-9b39-4ee7-bc3f-be08e61cd4fe
+2025-01-20 15:40:38,586 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="no configuration paths supplied"
+2025-01-20 15:40:38,587 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\nickc\\AppData\\Local/ngrok/ngrok.yml
+2025-01-20 15:40:38,587 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="open config file" path=C:\\Users\\nickc\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2025-01-20 15:40:38,596 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-01-20 15:40:38,917 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="client session established" obj=tunnels.session
+2025-01-20 15:40:38,918 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-01-20 15:40:38,986 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg=start pg=/api/tunnels id=6f587067135afe17
+2025-01-20 15:40:38,987 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg=end pg=/api/tunnels id=6f587067135afe17 status=200 dur=232.5µs
+2025-01-20 15:40:38,988 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg=start pg=/api/tunnels id=48a28ec1a116a0b4
+2025-01-20 15:40:38,988 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg=end pg=/api/tunnels id=48a28ec1a116a0b4 status=200 dur=0s
+2025-01-20 15:40:38,989 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:38+0530 lvl=info msg=start pg=/api/tunnels id=8eb141702a3d625d
+2025-01-20 15:40:39,026 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:39+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-4329c1c5-9b39-4ee7-bc3f-be08e61cd4fe addr=http://localhost:5000 url=https://401c-2405-201-3009-d88a-c13b-f785-f04-1125.ngrok-free.app
+2025-01-20 15:40:39,026 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:39+0530 lvl=info msg=end pg=/api/tunnels id=8eb141702a3d625d status=201 dur=36.3624ms
+2025-01-20 15:40:39,049 - 97 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 15:40:39,049 - 97 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 15:40:39,427 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:40:39+0530 lvl=info msg="update available" obj=updater
+2025-01-20 15:41:11,305 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:11+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-01-20 15:41:11,306 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:11+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+2025-01-20 15:41:11,306 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:11+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=4096d7294d6d err="reconnecting session closed"
+2025-01-20 15:41:11,306 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:11+0530 lvl=info msg="no more state changes" obj=tunnels.session
+2025-01-20 15:41:11,306 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:11+0530 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=edaa1ee9464f27bbb075f3ed954f6e71

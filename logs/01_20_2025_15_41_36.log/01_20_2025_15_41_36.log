@@ -1,0 +1,69 @@
+2025-01-20 15:41:36,665 - 193 - pyngrok.process - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\nickc\AppData\Local\ngrok\ngrok.exe
+2025-01-20 15:41:36,710 - 283 - pyngrok.ngrok - INFO - Opening tunnel named: http-5000-504abf3d-3022-42bb-891b-87a3110d3416
+2025-01-20 15:41:36,745 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:36+0530 lvl=info msg="no configuration paths supplied"
+2025-01-20 15:41:36,745 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:36+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\nickc\\AppData\\Local/ngrok/ngrok.yml
+2025-01-20 15:41:36,746 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:36+0530 lvl=info msg="open config file" path=C:\\Users\\nickc\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2025-01-20 15:41:36,747 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:36+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2025-01-20 15:41:37,010 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg="client session established" obj=tunnels.session
+2025-01-20 15:41:37,010 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2025-01-20 15:41:37,032 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=start pg=/api/tunnels id=ec6cf13e703353c5
+2025-01-20 15:41:37,032 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=end pg=/api/tunnels id=ec6cf13e703353c5 status=200 dur=0s
+2025-01-20 15:41:37,033 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=start pg=/api/tunnels id=1eb7bf4b63cc71e3
+2025-01-20 15:41:37,033 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=end pg=/api/tunnels id=1eb7bf4b63cc71e3 status=200 dur=0s
+2025-01-20 15:41:37,034 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=start pg=/api/tunnels id=70f251146e119ca9
+2025-01-20 15:41:37,092 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-504abf3d-3022-42bb-891b-87a3110d3416 addr=http://localhost:5000 url=https://7193-2405-201-3009-d88a-c13b-f785-f04-1125.ngrok-free.app
+2025-01-20 15:41:37,092 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg=end pg=/api/tunnels id=70f251146e119ca9 status=201 dur=58.0158ms
+2025-01-20 15:41:37,107 - 97 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-20 15:41:37,107 - 97 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-01-20 15:41:37,637 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:41:37+0530 lvl=info msg="update available" obj=updater
+2025-01-20 15:44:29,444 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:44:29+0530 lvl=info msg="join connections" obj=join id=336906db591b l=127.0.0.1:5000 r=54.244.110.200:58074
+2025-01-20 15:44:29,449 - 59 - root - INFO - log product :sucessfuly get raw data of product
+2025-01-20 15:44:29,450 - 63 - root - INFO - create product body for update in advatix
+2025-01-20 15:44:31,167 - 74 - root - INFO - None
+2025-01-20 15:44:31,168 - 83 - root - INFO - sucessfully extract sku and name :04-750-01-666,red wi test
+2025-01-20 15:44:31,213 - 86 - root - INFO - None
+2025-01-20 15:44:31,214 - 97 - root - INFO - {'status': 200, 'data': {'code': 0, 'message': 'success', 'errors': None}}
+2025-01-20 15:44:31,216 - 97 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2025 15:44:31] "POST /ask/insert_advatix HTTP/1.1" 200 -
+2025-01-20 15:55:27,342 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:55:27+0530 lvl=info msg="join connections" obj=join id=5551355f5c4e l=127.0.0.1:5000 r=54.187.64.250:41756
+2025-01-20 15:55:27,360 - 116 - root - INFO - log order: get raw data for order
+2025-01-20 15:55:27,367 - 120 - root - INFO - generate api body for order
+2025-01-20 15:55:27,375 - 128 - root - INFO - In Stock
+2025-01-20 15:55:27,375 - 156 - root - INFO - stock is found in database04-750-01-666
+2025-01-20 15:55:27,383 - 128 - root - INFO - No product found with SKU '04-750-01-2111-test'.
+2025-01-20 15:55:32,715 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:55:32+0530 lvl=info msg="join connections" obj=join id=881865fe0b94 l=127.0.0.1:5000 r=34.220.133.161:36438
+2025-01-20 15:55:32,721 - 116 - root - INFO - log order: get raw data for order
+2025-01-20 15:55:32,722 - 120 - root - INFO - generate api body for order
+2025-01-20 15:55:32,729 - 128 - root - INFO - In Stock
+2025-01-20 15:55:32,730 - 156 - root - INFO - stock is found in database04-750-01-666
+2025-01-20 15:55:32,736 - 128 - root - INFO - No product found with SKU '04-750-01-2111-test'.
+2025-01-20 15:55:35,984 - 169 - root - INFO - {'acceptedOrders': [], 'rejectedOrders': [{'status': 'failure', 'orderNo': 'CLTUR-123487', 'description': {'error': 'Error in create Order : Product not found with provided product id 04-750-01-2111-test and accountId :CLTUR'}}]}
+2025-01-20 15:55:35,985 - 197 - root - INFO - {'status': 'error', 'message': 'list index out of range'}
+2025-01-20 15:55:35,989 - 97 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2025 15:55:35] "[35m[1mPOST /ask/order_process HTTP/1.1[0m" 500 -
+2025-01-20 15:55:46,456 - 169 - root - INFO - {'acceptedOrders': [], 'rejectedOrders': [{'status': 'failure', 'orderNo': 'CLTUR-123487', 'description': {'error': 'Error in create Order : Product not found with provided product id 04-750-01-2111-test and accountId :CLTUR'}}]}
+2025-01-20 15:55:46,456 - 197 - root - INFO - {'status': 'error', 'message': 'list index out of range'}
+2025-01-20 15:55:46,457 - 97 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2025 15:55:46] "[35m[1mPOST /ask/order_process HTTP/1.1[0m" 500 -
+2025-01-20 15:59:25,873 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:59:25+0530 lvl=info msg="join connections" obj=join id=83f7d22e34b5 l=127.0.0.1:5000 r=54.202.74.28:40588
+2025-01-20 15:59:25,877 - 116 - root - INFO - log order: get raw data for order
+2025-01-20 15:59:25,879 - 120 - root - INFO - generate api body for order
+2025-01-20 15:59:25,885 - 128 - root - INFO - In Stock
+2025-01-20 15:59:25,885 - 156 - root - INFO - stock is found in database04-750-01-666
+2025-01-20 15:59:31,125 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T15:59:31+0530 lvl=info msg="join connections" obj=join id=43c7dc96e4af l=127.0.0.1:5000 r=34.220.133.161:36506
+2025-01-20 15:59:31,130 - 116 - root - INFO - log order: get raw data for order
+2025-01-20 15:59:31,132 - 120 - root - INFO - generate api body for order
+2025-01-20 15:59:31,139 - 128 - root - INFO - In Stock
+2025-01-20 15:59:31,139 - 156 - root - INFO - stock is found in database04-750-01-666
+2025-01-20 15:59:35,370 - 169 - root - INFO - {'acceptedOrders': [], 'rejectedOrders': [{'status': 'failure', 'orderNo': 'CLTUR-123488', 'description': {'error': 'Error in create Order : Products are not available at FC, Back order created'}}]}
+2025-01-20 15:59:35,371 - 197 - root - INFO - {'status': 'error', 'message': 'list index out of range'}
+2025-01-20 15:59:35,374 - 97 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2025 15:59:35] "[35m[1mPOST /ask/order_process HTTP/1.1[0m" 500 -
+2025-01-20 15:59:45,913 - 169 - root - INFO - {'acceptedOrders': [{'status': 'New', 'description': '123488', 'orderNo': 'CLTUR-123488'}], 'rejectedOrders': []}
+2025-01-20 15:59:45,913 - 171 - root - INFO - extract order no : CLTUR-123488
+2025-01-20 15:59:45,939 - 175 - root - INFO - None
+2025-01-20 15:59:45,955 - 178 - root - INFO - None
+2025-01-20 15:59:45,955 - 187 - root - INFO - {'status': 200, 'data': {'acceptedOrders': [{'status': 'New', 'description': '123488', 'orderNo': 'CLTUR-123488'}], 'rejectedOrders': []}}
+2025-01-20 15:59:45,957 - 97 - werkzeug - INFO - 127.0.0.1 - - [20/Jan/2025 15:59:45] "POST /ask/order_process HTTP/1.1" 200 -
+2025-01-20 16:37:49,319 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T16:37:49+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2025-01-20 16:37:49,320 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T16:37:49+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+2025-01-20 16:37:49,321 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T16:37:49+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=fa405183fc4e err="reconnecting session closed"
+2025-01-20 16:37:49,321 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T16:37:49+0530 lvl=info msg="no more state changes" obj=tunnels.session
+2025-01-20 16:37:49,321 - 99 - pyngrok.process.ngrok - INFO - t=2025-01-20T16:37:49+0530 lvl=info msg="failed to accept connection: Listener closed" obj=tunnels.session clientid=ce059677d3dd65c503e95ad6f98d7d03
